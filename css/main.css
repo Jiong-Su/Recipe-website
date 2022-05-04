@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kalam&family=Playfair+Display&family=Square+Peg&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  height: 300px;
+}
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 20%;
+}
+
+.container1 {
+  margin-top: 57px;
+  margin-left: 5%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding-left: 10px;
+  width: 40%;
+  margin-bottom: 20%;
+}
+
+.left-container {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 5%;
+  width: 40%;
+  margin-bottom: 20%;
+}
+
+.container3 {
+  width: 60%;
+  background: url("home-header-2022.png") right/cover no-repeat;
+}
+
+.container4 {
+  background: url("brownies.png") left/cover no-repeat;
+  background-size: 80%;
+  width: 60%;
+}
+
+.right-container {
+  width: 40%;
+}
+
+.about-me {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.blue {
+  font-size: 13px;
+  color: aqua;
+}
+
+#links li {
+  float: right;
+  height: auto;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.button {
+  position: relative;
+  color: #e8e3de;
+  border: 5px;
+  font-weight: 500;
+  background-color: #04d4a7;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.logo {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logo-size {
+  height: 50px;
+  width: auto;
+}
+
+.clone {
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  color: #e8e3de;
+}
+
+h1 {
+  color: #e8e3de;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+h2 {
+  color: #e8e3de;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+.paragraph {
+  color: #e8e3de;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row2:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row3 {
+  display: inline;
+}
+
+.latest-recipe {
+  display: inline;
+}
+
+.column {
+  position: relative;
+  width: 100%/3;
+}
+
+/* Stops the float property from affecting content after the columns */
+.images {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: flex;
+  color: #e8e3de;
+}
+
+body {
+  background-color: #0f1112;
+  margin: 0%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.big-image.width {
+  height: 500px;
+  background: url("GlazedLemonCookies1-2-500x500.jpg") center/cover no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu.width {
+  margin-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.width {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+/*# sourceMappingURL=main.css.map */

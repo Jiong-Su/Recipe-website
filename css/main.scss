@@ -1,44 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kalam&family=Playfair+Display&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kalam&family=Lato:wght@300&family=Playfair+Display&family=Square+Peg&display=swap');
 
 * {
     box-sizing: border-box;
   }
-
-
+.homepage{
+    background: url("home-header-2022.png") right/cover no-repeat;
+    background-size: 40%;
+    max-height: 900px;
+    height: auto;
+}
+.title{
+    color: #e8e3de;
+    font-family: 'Cormorant Garamond', serif;
+    // font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-size: 1.4vw;
+}
+.title:hover{
+text-decoration: underline;
+}
+.hero{
+    color: #e8e3de;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-size: 1.5vw;
+     
+}
+// font-size:bold;
+.space{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .container{
-    box-sizing: border-box;
-    display: inline-block;
-
-    padding: 10px;
-    height: 300px;
-   
+    height: auto;
+    
 }
 
-.left, .right {
-    width: 20%;
+.glow{
+    // border-color: #9ecaed;
+    // box-shadow: 0 0 20px #9ecaed;
+    border-color: #b64242;
+    box-shadow: 0 0 30px #b64242;
+    border-radius: 5px;
+}
+.right{
+    width: 27%;
+}
+.left{
+    width: 27%;
 }
 
 .middle {
-    width: 20%;
+    width: 27%;
 }
 
 .container1{
-    margin-top: 57px;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left: 15%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 5%; 
-    flex: 50%;
+    margin-left: 15%; 
     padding-left: 10px;
     width: 40%;
-    margin-bottom: 20%;
-    
+    height: 1000px ;
 }
 
 .left-container{
-    width:50%
-
+    width:50% 
     
 }
+
 ul {
     list-style-type:none;
     
@@ -48,78 +82,90 @@ ul {
     flex-direction: row;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: flex-end;
-    margin-right: 5%; 
+    margin-right: 10%; 
     width: 40%;
     margin-bottom: 20%;
 }
 .container3{
     width: 60%;
-    background: url("home-header-2022.png") right/cover no-repeat;
+    display: flex;
+    justify-content: flex-end;
 }
 .container4{
     background: url("brownies.png") left/cover no-repeat;
     background-size: 80%;
-    width: 60%;
+    width: 50%;
 }
 
 
 .right-container{
-    width: 40%;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 5%;
 }
 
 
 .about-me{
     justify-content: flex-end;
-    
-    
 }
 .blue{
-    font-size: 13px;
+    font-size: 0.9vw;
     color: aqua;
 }
 
 #links li{
     float: right;
+    align-items:center;
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.inline{
     
-    height: auto;
-    width: 40px;
-    margin-right: 20px;
+    line-height: 1.8;
+    
 }
 
 .button{
     position: relative;
-    color: #e8e3de;
-    border: 5px;
-    font-weight: 500;
-    background-color:#04d4a7;
+    background-color:#08b28d;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+}
+.buttontext{
+    color: #e8e3de;
+    text-decoration: underline #e8e3de;
+    font-weight: 400;
+    font-size: 0.9vw;
+    font-family: 'Lato', serif;
+}
+.button:hover{
+    background-color:#07886c;
 }
 .logo{
-
+    
     justify-content:flex-end;
     
 }
 .logo-size{
     height: 50px;
     width: auto;
-    
-
 }
 .clone{
     font-family: 'Kalam', cursive; 
     font-size: 40px;
     color:#e8e3de
 }
-h1{
-    // color: #f9f7f4;
-    color: #e8e3de;
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    letter-spacing: 3px;
-    line-height: 1.2;
-}
+
 h2{
     color: #e8e3de;
     font-family: 'Playfair Display', serif;
@@ -130,29 +176,34 @@ h2{
 }
 .paragraph{
     color: #e8e3de;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lato', serif;
+    // font-size: 18px;
+    font-size:1vw;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    font-weight: 550;
+    
+}
+.recipefont{
+    color: #e8e3de;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     word-spacing: 1px;
     line-height: 1.8;
-    font-weight: 700;
-    
+    font-weight: 550;
 }
 .row{
     display: flex;
     
-    
-    
 }
-.row2:after {
-    box-sizing: border-box;
-    content: "";
-    display: table;
-    clear: both;
-}
-#row3{
-    display:inline; 
-    
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 
 .latest-recipe{
@@ -170,12 +221,12 @@ h2{
 }
 
 .text {
-    
     position: flex;
     color: #e8e3de;
 }
 body{
-    background-color:#0f1112;
+    // background-color:#0f1112;
+    background-color: rgba(31, 31, 30, 1.0);
     margin: 0%;
 }
 a:link, a:visited,  a:hover, a:active
@@ -183,13 +234,27 @@ a:link, a:visited,  a:hover, a:active
     color: #000000;
     text-decoration: none;
 }
-.big-image.width{
-    
-    height: 500px;
-    background: url("GlazedLemonCookies1-2-500x500.jpg") center/cover no-repeat;
-    justify-content: center;
+.bronuts{
+background: url("Bronuts10-2.jpg") center/cover no-repeat;
 }
-.menu.width{
+
+.Cookie{
+background: url("GlazedLemonCookies1-2-500x500.jpg") center/cover no-repeat;
+}
+.tart{
+    background: url("BakewellTart5.jpg") center/cover no-repeat;
+}
+
+.big-image{
+    height: 500px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    // border-radius: 20px;
+}
+
+.menu{
 margin-top: 50px;
 justify-content: center;
 
@@ -197,6 +262,75 @@ justify-content: center;
 .width{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1300px;
+    max-width: 1100px;
     
+}
+
+.recipeimage{
+    
+    max-width: 500px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reciper-break-inner::before{
+    left:0;
+    background-color: #04d4a7 solid 1px;
+    width: calc(35%-30px)
+}
+.reciper-break-inner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.recipe-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 10px;
+    border: rgb(40, 82, 68) solid 2px;
+    height: auto;
+
+    
+    
+}
+.recipe-summary{
+    background-color: rgba(40, 82, 68, 0.3);
+    height: auto;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+   
+    
+}
+.featured-text{
+    justify-content: center;
+    color: rgb(232, 227, 222);
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+.star{
+    min-width:20%;
+    max-width:50px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hyperlink{
+    text-decoration: underline;
+    color: rgb(33, 188, 165);
+}
+.footer{
+    background-color:#009F8B ;
+    white-space: wrap;
 }

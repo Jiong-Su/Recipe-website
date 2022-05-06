@@ -26,7 +26,7 @@ text-decoration: underline;
     color: #e8e3de;
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
-    line-height: 1;
+    line-height: 1.5;
     font-size: 1.5vw;
      
 }
@@ -86,10 +86,22 @@ ul {
     width: 40%;
     margin-bottom: 20%;
 }
-.container3{
-    width: 60%;
+.row{
     display: flex;
     justify-content: flex-end;
+    
+}
+.container3{
+    width: 60%;
+    
+}
+#links li{
+    float: left;
+    width: 1.3vw;
+    min-width: 15px;
+    margin-right: 1em;
+
+    
 }
 .container4{
     background: url("brownies.png") left/cover no-repeat;
@@ -109,17 +121,12 @@ ul {
     justify-content: flex-end;
 }
 .blue{
-    font-size: 0.9vw;
+    font-size: 18px;
     color: aqua;
+    
 }
 
-#links li{
-    float: right;
-    align-items:center;
-    width: 20px;
-    height: 20px;
-    margin-right: 1em;
-}
+
 .center{
     display: flex;
     justify-content: center;
@@ -157,12 +164,14 @@ ul {
     
 }
 .logo-size{
-    height: 50px;
+    height: 3vw;
+    min-height: 30px;
     width: auto;
 }
 .clone{
     font-family: 'Kalam', cursive; 
-    font-size: 40px;
+    font-size: 3vw;
+    
     color:#e8e3de
 }
 
@@ -177,8 +186,8 @@ h2{
 .paragraph{
     color: #e8e3de;
     font-family: 'Lato', serif;
-    // font-size: 18px;
-    font-size:1vw;
+    font-size: 18px;
+    
     letter-spacing: 1px;
     word-spacing: 1px;
     line-height: 1.8;
@@ -194,10 +203,7 @@ h2{
     line-height: 1.8;
     font-weight: 550;
 }
-.row{
-    display: flex;
-    
-}
+
 .row2 {
     display: flex;
     justify-content: space-around;
@@ -330,7 +336,21 @@ justify-content: center;
     text-decoration: underline;
     color: rgb(33, 188, 165);
 }
-.footer{
+.footer {
     background-color:#009F8B ;
-    white-space: wrap;
+    
+}
+.nomargin{
+    display: flex;
+    
+}
+.github{
+    min-width: 30px;
+    width: 6vw;
+    height: auto;
+}
+.github:hover{
+    width: 8vw;
+    height: auto;
+   
 }

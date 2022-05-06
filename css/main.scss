@@ -97,11 +97,16 @@ ul {
 }
 #links li{
     float: left;
-    width: 1.3vw;
-    min-width: 15px;
-    margin-right: 1em;
-
+    margin-right: 1em;  
+}
+.logo{
     
+    justify-content:flex-end;
+    
+}
+.iconsize{
+    width: 25px;
+    height: 25px;
 }
 .container4{
     background: url("brownies.png") left/cover no-repeat;
@@ -158,11 +163,7 @@ ul {
 .button:hover{
     background-color:#07886c;
 }
-.logo{
-    
-    justify-content:flex-end;
-    
-}
+
 .logo-size{
     height: 3vw;
     min-height: 30px;
@@ -234,6 +235,10 @@ body{
     // background-color:#0f1112;
     background-color: rgba(31, 31, 30, 1.0);
     margin: 0%;
+}
+.logosize{
+    width: 20px;
+    height: 20px;
 }
 a:link, a:visited,  a:hover, a:active
 {

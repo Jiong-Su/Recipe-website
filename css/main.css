@@ -111,9 +111,18 @@ ul {
 
 #links li {
   float: left;
-  width: 1.3vw;
-  min-width: 15px;
   margin-right: 1em;
+}
+
+.logo {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.iconsize {
+  width: 25px;
+  height: 25px;
 }
 
 .container4 {
@@ -175,12 +184,6 @@ ul {
 
 .button:hover {
   background-color: #07886c;
-}
-
-.logo {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .logo-size {
@@ -256,6 +259,11 @@ h2 {
 body {
   background-color: #1f1f1e;
   margin: 0%;
+}
+
+.logosize {
+  width: 20px;
+  height: 20px;
 }
 
 a:link, a:visited, a:hover, a:active {
